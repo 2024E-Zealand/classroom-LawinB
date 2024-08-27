@@ -12,5 +12,12 @@ namespace ClassRoomNet60
         public string name {  get; private set; }
         public int birthmonth { get; private set; }
         public int birthday { get; private set; }
+
+        public student(string name, int birthmonth, int birthday)
+        {
+            this.name = name;
+            this.birthmonth = birthmonth;
+            this.birthday = birthday;
+        }
     }
 }
